@@ -1,10 +1,11 @@
 {
-  "name": "ant-checker",
-  "version": "1.1.0",
-  "description": "ant对象检查组件",
+  "name": "ant-datasource",
+  "version": "1.1.1",
+  "description": "ant防御式编程包",
   "main": "lib/index.js",
   "scripts": {
-    "deploy": "babel src -d lib",
+    "build": "webpack",
+    "babel": "babel src -d lib",
     "start": "npm run dev",
     "test": "jest",
     "lint": "npm run  lint",
